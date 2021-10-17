@@ -72,6 +72,8 @@ a{
 }
 
 .experience button{
+    cursor: pointer;
+    font-size: 1.2rem;
     width: 200px;
     height: 60px;
     background-color: #3F29FF;
