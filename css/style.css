@@ -69,6 +69,7 @@ body{
 
 .experience-info-wrapper img{
     max-width: 55%;
+    height: 485px;
 }
 
 .experience-info{
@@ -76,7 +77,6 @@ body{
 }
 
 .experience-title{
-    font-family: Pridi;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -85,7 +85,6 @@ body{
 }
 
 .experience-text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -93,7 +92,6 @@ body{
 }
 
 .experience-add_text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -122,7 +120,6 @@ body{
 }
 
 .learn-point h2{
-    font-family: Pridi;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -147,7 +144,6 @@ body{
 }
 
 .point-title{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
@@ -156,7 +152,6 @@ body{
 }
 
 .point-text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -180,7 +175,6 @@ body{
 }
 
 .about-us-title{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -189,7 +183,6 @@ body{
 }
 
 .about-us-text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -206,7 +199,6 @@ body{
 }
 
 .about-us-image span {
-    font-family: Pridi;
     font-style: normal;
     font-weight: bold;
     color: #090000;
@@ -236,7 +228,6 @@ footer{
 
 
 footer h2{
-    font-family: Pridi;
     font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
@@ -263,7 +254,6 @@ footer h2{
 
 .info-footer-wrapper p{
     margin-right: 10px;
-    font-family: Pridi;
     margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
@@ -273,7 +263,6 @@ footer h2{
 }
 
 .info-footer-right{
-    font-family: Pridi;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -282,7 +271,6 @@ footer h2{
 }
 
 .made-by{
-    font-family: Pridi;
     color: #FFFFFF;
     display: flex;
     margin-top: 20px;
