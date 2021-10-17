@@ -273,13 +273,14 @@ footer h2{
 .made-by{
     color: #FFFFFF;
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
     justify-content: center;
 }
 
 .made-by img{
     margin-left: 15px;
+    width: 23px;
 }
 
 /*Footer-start*/
