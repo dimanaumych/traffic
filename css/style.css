@@ -69,6 +69,7 @@ body{
 
 .experience-info-wrapper img{
     max-width: 55%;
+    height: 485px;
 }
 
 .experience-info{
@@ -76,7 +77,6 @@ body{
 }
 
 .experience-title{
-    font-family: Pridi;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -85,7 +85,6 @@ body{
 }
 
 .experience-text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -93,7 +92,6 @@ body{
 }
 
 .experience-add_text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -122,7 +120,6 @@ body{
 }
 
 .learn-point h2{
-    font-family: Pridi;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -147,7 +144,6 @@ body{
 }
 
 .point-title{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
@@ -156,7 +152,6 @@ body{
 }
 
 .point-text{
-    font-family: Pridi;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -165,6 +160,59 @@ body{
 
 /*Learn-End*/
 
+/*About-us-Start*/
+
+.about-us-wrapper{
+    padding: 20px;
+}
+
+.about-us{
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: #F7F7F5;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+
+.about-us-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-us-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 160px;
+}
+
+.about-us-image{
+    display: flex;
+}
+
+.about-us-image img{
+    width: 50%;
+}
+
+.about-us-image span {
+    font-style: normal;
+    font-weight: bold;
+    color: #090000;
+}
+
+.about-us-image p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+
+
+/*About-us-End*/
 
 /*Footer-start*/
 
@@ -174,12 +222,12 @@ footer{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 
 
 footer h2{
-    font-family: Pridi;
     font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
@@ -201,7 +249,6 @@ footer h2{
 
 .info-footer-wrapper p{
     margin-right: 10px;
-    font-family: Pridi;
     margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
@@ -211,7 +258,6 @@ footer h2{
 }
 
 .info-footer-right{
-    font-family: Pridi;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -220,16 +266,16 @@ footer h2{
 }
 
 .made-by{
-    font-family: Pridi;
     color: #FFFFFF;
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
     justify-content: center;
 }
 
 .made-by img{
     margin-left: 15px;
+    width: 23px;
 }
 
 .about-course-wrapper{
@@ -565,44 +611,23 @@ footer h2{
     .experience {
         align-items: start;
     }
-    .about-course-item-img{
-        width: 100%;
-        display: flex;
-        justify-content: center;
+
+    .about-us-image{
+        flex-direction: column;
         align-items: center;
-        height: auto;
-    }
-    .about-course-item-img img{
-        width: 100%;
-        max-width: 300px;
-    }
-    .about-course-items{
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row-gap: 40px;
-        grid-column-gap: 35px;
-    }
-    .education-tutorial-items {
-        width: 60%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        margin-top: 100px;
-    }
-    .education-tutorial-image{
-        width: 100%;
-        height: 150px;
-        background-color: white;
-        display: flex;
         justify-content: center;
-        align-items: center;
     }
-    .education-tutorial-image img{
-        width: 70%;
-        max-height: 150px;
+
+    .about-us-image img{
+        width: 80%;
+    }
+
+    .about-us-image p{
+        margin-top: 40px;
+    }
+
+    .about-us-text {
+        margin-bottom: 50px;
     }
 }
 
