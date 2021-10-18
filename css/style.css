@@ -86,6 +86,181 @@ a{
 
 /*Experience-End*/
 
+/*Case-Start*/
+
+.case-title-block{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #090000;
+    margin-bottom: 85px;
+    margin-top: 50px;
+}
+
+.case-wrapper{
+    background-color: #F7F7F5;
+    margin-top: 30px;
+    padding: 20px 20px;
+    font-family: Montserrat;
+}
+
+
+.cases-wrapper-block{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.dark-side{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.45;
+    z-index: 2;
+    max-width: 1200px;
+    min-height: 500px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.dark-side-img{
+    z-index: 3;
+    position: absolute;
+    width: 120px;
+    left: 45%;
+    top: 40%;
+    display: none;
+}
+
+.case:hover .dark-side-img{
+    display: block;
+}
+
+.case{
+    position: relative;
+    max-width: 1200px;
+    min-height: 500px;
+    height: auto;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.case-top-info{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Montserrat;
+}
+
+.case-sale-title{
+    width: 285px;
+    margin-bottom: 40px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: #FFF708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Montserrat;
+}
+.case-image{
+    width: 30px;
+    margin-right: 10px;
+}
+.case-sides{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.case-left-side{
+    width: 55%;
+}
+.case-left-side h1{
+    font-size: 2.4rem;
+    width: 70%;
+    font-weight: bolder;
+    width: 95%;
+}
+.case-left-side .case-text{
+    margin-top: 35px;
+    font-size: 1.3rem;
+    width: 95%;
+    line-height: 1.5em;
+}
+
+.case-right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 43%;
+}
+
+.case-bottom{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.case-price{
+    display: flex;
+    align-items: center;
+}
+
+.case-image{
+    width: 100%;
+    max-width: 500px;
+    max-height: 380px;
+}
+.case-btn{
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    background-color: #3F29FF;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.new-price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130px;
+    color: #090000;
+    margin-right: 20px;
+}
+
+.old-price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #C3C2BE;
+    text-decoration: line-through;
+}
+
+/*Case-End*/
+
 /*Learn-Start*/
 
 .learn-point{
@@ -652,6 +827,13 @@ footer h2{
 
 @media (max-width: 768px) {
 
+    .new-price {
+        font-size: 45px;
+    }
+    .old-price {
+        font-size: 25px;
+    }
+
     .experience-info-wrapper img {
         width: 70%;
         height: 300px;
@@ -718,6 +900,33 @@ footer h2{
     .about-us-text {
         margin-bottom: 50px;
     }
+
+    .case-sides{
+        flex-direction: column;
+    }
+    .case-right-side, .case-left-side{
+        width: 90%;
+    }
+    .case-left-side h1 {
+        font-size: 2.2rem;
+        width: 70%;
+        font-weight: bolder;
+    }
+
+    .case-top-info{
+        flex-direction: column;
+    }
+
+    .case-sale-title{
+        margin-top: 30px;
+    }
+    .case-sides {
+        margin-top: 30px;
+    }
+    .case-right-side{
+        margin-top: 30px;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 670px){
@@ -731,8 +940,26 @@ footer h2{
         width: 70%;
         height: auto;
     }
+
+    .case-bottom {
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 470px) {
+
+    .dark-side-img {
+        left: 35%;
+    }
+
+    .case-left-side h1 {
+        font-size: 2.0rem;
+    }
+
+    .case-sale-title {
+        width: 251px;
+    }
+
     .education-tutorial-items {
         width: 80%;
     }
@@ -763,3 +990,9 @@ footer h2{
     }
 
 }
+@media (max-width: 370px){
+    .dark-side-img {
+        left: 30%;
+    }
+}
+
