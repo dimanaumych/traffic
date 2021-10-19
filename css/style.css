@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin: 0;
     position: relative;
+    padding: 0;
 }
 
 a{
@@ -12,7 +13,7 @@ a{
 
 .experience-wrapper{
     width: 100%;
-    margin-bottom: 180px;
+    margin-bottom: 90px;
     margin-top: 100px;
 }
 
@@ -33,7 +34,7 @@ a{
 .experience-info-wrapper{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 75px;
+    /*margin-bottom: 75px;*/
 }
 
 .experience-info-wrapper img{
@@ -48,7 +49,7 @@ a{
 .experience-title{
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 2.4rem;
     color: #000000;
     margin-bottom: 54px;
     font-family: Montserrat;
@@ -67,20 +68,20 @@ a{
     font-weight: 300;
     font-size: 20px;
     color: #000000;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     font-family: Montserrat;
 }
 
 .experience button{
     cursor: pointer;
     font-size: 1.2rem;
-    width: 200px;
-    height: 60px;
+    width: 230px;
+    height: 50px;
     background-color: #3F29FF;
     border-radius: 10px;
     color: #FFFFFF;
     border: none;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     margin-right: 50px;
 }
 
@@ -101,7 +102,7 @@ a{
 .case-wrapper{
     background-color: #F7F7F5;
     margin-top: 30px;
-    padding: 20px 20px;
+    padding: 10px 20px;
     font-family: Montserrat;
 }
 
@@ -120,7 +121,6 @@ a{
     z-index: 2;
     max-width: 1200px;
     min-height: 500px;
-    padding-bottom: 50px;
     background-color: #000000;
     border-radius: 20px;
 }
@@ -162,6 +162,7 @@ a{
 .case-sale-title{
     width: 285px;
     margin-bottom: 40px;
+    margin-top: 10px;
     padding: 5px 20px 5px 20px;
     border: 1px solid transparent;
     border-radius: 30px;
@@ -171,6 +172,9 @@ a{
     align-items: center;
     color: black;
     font-family: Montserrat;
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 .case-image{
     width: 30px;
@@ -180,12 +184,15 @@ a{
     width: 90%;
     display: flex;
     justify-content: space-between;
-    align-items: end;
     margin: 0 auto;
     margin-top: 40px;
 }
 .case-left-side{
     width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 380px;
 }
 .case-left-side h1{
     font-size: 2.4rem;
@@ -202,9 +209,12 @@ a{
 
 .case-right-side{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
     width: 43%;
+    min-height: 380px;
+    padding-top: 40px;
 }
 
 .case-bottom{
@@ -224,7 +234,7 @@ a{
 
 .case-image{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     max-height: 380px;
 }
 .case-btn{
@@ -264,6 +274,7 @@ a{
 /*Learn-Start*/
 
 .learn-point{
+    font-family: Montserrat;
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -271,12 +282,12 @@ a{
 .learn-point h2{
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 2.4rem;
     color: #000000;
 }
 
 .point-wrapper{
-    margin-top: 100px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -471,7 +482,7 @@ footer h2{
     max-width: 300px;
 }
 .about-course-item-title{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -483,7 +494,7 @@ footer h2{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 20px;
     border: 1px solid transparent;
     border-radius: 20px;
     background: rgb(36,36,36);
@@ -552,7 +563,7 @@ footer h2{
     display: flex;
     margin: 0px auto;
     margin-top: 120px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .faq-title{
@@ -624,7 +635,6 @@ footer h2{
     justify-content: center;
     align-items: center;
     border-radius: 80px;
-    transition: background-color .5s;
 }
 .faq-info-button img{
     width: 40px;
@@ -639,21 +649,13 @@ footer h2{
     cursor: pointer;
     width:40px;
     height: 40px;
-    /*border: 1px solid #EC7505;*/
-    background-color: #EC7505;
     margin-right: 20px;
-    /*display: flex;*/
     justify-content: center;
     align-items: center;
     border-radius: 80px;
-    transition: background-color .5s;
 }
 .faq-button-cancel img{
     transform: rotate(45deg);
-    transition: transform .5s;
-}
-.faq-button-cancel img{
-    transition: transform .5s;
 }
 
 /*faq-wrapper-End*/
@@ -737,7 +739,6 @@ footer h2{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 75px;
     }
 
     .experience-info {
@@ -748,7 +749,8 @@ footer h2{
         align-items: center;
     }
     .learn-point{
-        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
     }
 }
 @media (max-width: 1024px) {
@@ -771,6 +773,9 @@ footer h2{
     }
     .faq-info-wrapper{
         width: 100%;
+    }
+    .faq-text{
+        width: 85%;
     }
 }
 @media (max-width: 1000px) {
@@ -826,7 +831,17 @@ footer h2{
 }
 
 @media (max-width: 768px) {
-
+    .case-right-side{
+        padding-top: 0px;
+    }
+    .case-right-side{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .case-sale-title{
+        position: static;
+    }
     .new-price {
         font-size: 45px;
     }
@@ -880,7 +895,7 @@ footer h2{
     }
     .education-tutorial-item{
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
     }
 
     .about-us-image{
@@ -905,7 +920,7 @@ footer h2{
         flex-direction: column;
     }
     .case-right-side, .case-left-side{
-        width: 90%;
+        width: 100%;
     }
     .case-left-side h1 {
         font-size: 2.2rem;
@@ -924,7 +939,7 @@ footer h2{
         margin-top: 30px;
     }
     .case-right-side{
-        margin-top: 30px;
+        margin-top: 10px;
         align-items: flex-start;
     }
 }
@@ -932,10 +947,92 @@ footer h2{
 @media (max-width: 670px){
     .point-wrapper{
         grid-template-columns: 1fr;
+        margin-top: 10px;
     }
+    .point {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .experience-wrapper{
+        margin-bottom: 50px;
+    }
+    .experience-add_text{
+        margin-bottom: 50px;
+    }
+    .experience button{
+        margin-bottom: 20px;
+    }
+    .case-title-block {
+        font-size: 2rem;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+    .faq-wrapper {
+        margin-top: 30px;
+    }
+
+    .faq-title {
+        font-size: 2rem;
+    }
+
+    .faq-wrapper {
+        padding-bottom: 0px;
+    }
+
+    .case-left-side h1 {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .case-text {
+        width: 100%;
+    }
+
+    .case-right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .about-us-title {
+        font-size: 2rem;
+    }
+
+    .about-course-title {
+        max-width: 400px;
+        font-size: 2rem;
+    }
+
+    .experience-wrapper {
+        margin-top: 50px;
+    }
+
+    .experience {
+        padding-top: 50px;
+    }
+
+    .about-course-wrapper {
+        margin-top: 50px;
+    }
+
+    .education-tutorial-wrapper {
+        margin-top: 50px;
+    }
+
+    .about-us-text {
+        margin-bottom: 30px;
+    }
+
+    .experience-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
 }
 
-@media (max-width: 570px){
+@media (max-width: 570px) {
     .experience-info-wrapper img {
         width: 70%;
         height: auto;
@@ -945,54 +1042,59 @@ footer h2{
         flex-direction: column;
     }
 
-}
-@media (max-width: 470px) {
+    .faq-text {
+        width: 100%;
+    }
 
     .dark-side-img {
         left: 35%;
     }
 
-    .case-left-side h1 {
-        font-size: 2.0rem;
-    }
-
-    .case-sale-title {
-        width: 251px;
-    }
-
-    .education-tutorial-items {
-        width: 80%;
-    }
-    .education-tutorial-image{
-        width: 100%;
-        height: 130px;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .education-tutorial-image img{
-        width: 70%;
-        max-height: 130px;
-    }
 }
-@media (max-width: 425px){
-    .experience {
-        max-width: 80%;
+
+    @media (max-width: 470px) {
+
+        .case-left-side h1 {
+            font-size: 1.6rem;
+        }
+
+        .case-sale-title {
+            width: 220px;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .education-tutorial-items {
+            width: 80%;
+        }
+
+        .education-tutorial-image {
+            width: 100%;
+            height: 130px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .education-tutorial-image img {
+            width: 70%;
+            max-height: 130px;
+        }
+    }
+    @media (max-width: 425px) {
+        .experience {
+            max-width: 80%;
+        }
+        footer form button {
+            width: 200px;
+        }
+    }
+    @media (max-width: 370px) {
+        .dark-side-img {
+            left: 30%;
+        }
     }
 
-    footer form button{
-        width: 200px;
-    }
-
-    .experience-title {
-        font-size: 35px;
-    }
-
-}
-@media (max-width: 370px){
-    .dark-side-img {
-        left: 30%;
-    }
-}
 
